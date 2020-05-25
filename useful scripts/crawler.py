@@ -56,6 +56,6 @@ class Crawl:
         print("Done!") # lyrics loaded succesfully!
 
 # sample code usage
-face = Crawl("https://www.azlyrics.com/l/luckydube.html", "2Face")
+face = Crawl("https://www.azlyrics.com/l/luckydube.html", "dube")
 face.link_loader()
 face.store_song_lyrics()
