@@ -1,6 +1,7 @@
 import os
 import glob
 
+# extract lyrics folder from lyrics.rar and place in current directory
 file_dir = os.getcwd() + "\\lyrics" # lyrics folder directory
 
 os.chdir(file_dir)
